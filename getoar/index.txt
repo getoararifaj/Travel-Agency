@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Car sales</title>
+    <!--Link To Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <!--Nav Container-->
+        <div class="nav container">
+            <!--Menu Icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!--Logo-->
+            <a href="#" class="logo">Auto<span>Place</span></a>
+            <!--Navbar List-->
+            <ul class="navbar">
+                <li> <a href="#home" class="active">Home</a></li>
+                <li> <a href="#cars">Cars</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#parts">Parts</a></li>
+                <li> <a href="#blog">Our Blog</a></li>
+            </ul>
+            <!--search Icon-->
+            <i class='bx bx-search' id="search-icon"></i>
+            <!--search Box-->
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>We have Everthing <br> your <span>car</span> Need</h1>
+            <p>Safety. Luxury. Reliability. All in one place.</p>
+            <!--home Button-->
+            <a href="#" class="btn">Discover Now</a>
+        </div>
+
+    </section>
+    <!--cars section-->
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>All Cars</span>
+            <h2>We have all types cars</h2>
+            <p>Are you more of a Mercedes type of person? Or maybe a BMW type of person? Find those and many more car families right here. </p>
+        </div>
+        <!--Cars container-->
+        <div class="cars-container container">
+            <!--Box 1-->
+            <div class="box">
+                <img src="https://www.cnet.com/a/img/resize/5ea810746378953e1d3b22d33a030e892edaaa24/hub/2020/09/22/858929de-4fad-405b-a3cb-fac6c19bf5cb/mercedes-amg-gt-stealth-001.jpg?auto=webp&fit=crop&height=675&width=1200" alt="">
+                <h2>Mercedes-Benz</h2>
+            </div>
+            <!--Box 2-->
+            <div class="box">
+                <img src="https://i.ytimg.com/vi/wPtBhnODKcI/maxresdefault.jpg" alt="">
+                <h2>BMW</h2>
+            </div>
+
+               <!--Box 7-->
+        <div class="box">
+            <img src="https://i.pinimg.com/originals/09/2e/15/092e15a70b54b16798d1d5acd3285e2f.jpg" alt="">
+            <h2>Audi</h2>
+        </div>
+
+            <!--Box 3-->
+            <div class="box">
+                <img src="https://cdn.motor1.com/images/mgl/RWK9e/s3/2020-vw-arteon-r-line-edition.jpg" alt="">
+                <h2>Volkswagen</h2>
+            </div>
+
+            <!--Box 4-->
+            <div class="box">
+                <img src="https://www.motorcarsofjackson.com/galleria_images/117/117_main_f.jpg" alt="">
+                <h2>Jeep</h2>
+            </div>
+
+            <!--Box 5-->
+            <div class="box">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Hilux/10924/1691990326111/front-left-side-47.jpg?impolicy=resize&imwidth=420" alt="">
+                <h2>Toyota</h2>
+            </div>
+
+            <!--Box 6-->
+            <div class="box">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a26caa162200547.63d18e50e58fa.jpg" alt="">
+                <h2>Fiat</h2>
+            </div>
+
+            <!--Box 7-->
+            <div class="box">
+                <img src="https://statics.forbesargentina.com/2021/11/crop/6182f8e9d134b__822x822.webp" alt="">
+                <h2>Ford</h2>
+            </div>
+
+            <!--Box 8-->
+            <div class="box">
+                <img src="https://www.slashgear.com/img/gallery/2024-honda-prologue-first-look-weaponizing-normal/intro-1695843387.jpg" alt="">
+                <h2>Honda</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <!--About-->
+    <section>
+        <section class="about container" id="about">
+            <div class="about-img">
+                <img src="https://pngimg.com/d/mercedes_PNG80189.png" alt="">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <h2>Cheap Prices With <br> Quality Cars</h2>
+                <br>
+                <!--About Button-->
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+    </section>
+    <!--parts section-->
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span>What We Offer</span>
+            <h2>Our Cars Are Always Excellent</h2>
+        </div>
+        <!--parts container-->
+        <div class="parts-container container">
+            <!--Box 1-->
+
+            <div class="box">
+                <img src="https://pngfre.com/wp-content/uploads/Wheel-1-1024x1024.png" alt="">
+                <h3>Auto Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+
+               <!--Box 2-->
+
+               <div class="box">
+                <img src="https://www.wheelpros.com/media/catalog/product/2/d/2d6a7777bc572debb4e3f7f688a5baddfae27a3a6c1ddb7a03d97ea83fcb5100.jpeg?quality=80&fit=bounds&height=&width=" alt="">
+                <h3>Auto Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+
+               <!--Box 3-->
+
+               <div class="box">
+                <img src="https://pngimg.com/d/engine_PNG9.png" alt="">
+                <h3>Auto Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+
+               <!--Box 4-->
+
+               <div class="box">
+                <img src="https://i.pinimg.com/originals/38/a0/5a/38a05aa0ee8c4fe8c89f1d3497322b64.png" alt="">
+                <h3>Auto Spare Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+
+               <!--Box 5-->
+
+               <div class="box">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39f92a3d-a3f3-4df9-9868-40517103d071/d4den7z-587e6d68-6d92-4dbf-bf51-76d0e33a8593.png/v1/fill/w_900,h_675/car_mirror_png_2_by_irisustockimages_d4den7z-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvMzlmOTJhM2QtYTNmMy00ZGY5LTk4NjgtNDA1MTcxMDNkMDcxXC9kNGRlbjd6LTU4N2U2ZDY4LTZkOTItNGRiZi1iZjUxLTc2ZDBlMzNhODU5My5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZPmwk_fVQT9T3Y3RFL-pKzYvKD0qe6ha77L6zTOBlds" alt="">
+                <h3>Auto Spare Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+
+               <!--Box 6-->
+
+               <div class="box">
+                <img src="https://static.vecteezy.com/system/resources/previews/021/217/129/non_2x/headlight-for-cars-trucks-and-buses-png.png" alt="">
+                <h3>Auto Spare Parts</h3>
+                <span>130.99€</span>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+    </section>
+    <!--Blog Container-->
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Blog & News</span>
+            <h2>Our Blog Content</h2>
+        </div>
+        <!--Blog Container-->
+        <div class="blog-container container">
+            <!--Box 1-->
+            <div class="box">
+                <img src="/img/car1.jpg" alt="">
+                <span>September 01 2022</span>
+                <h3>How To Get Perfect Car At Low Price</h3>
+                <p>Getting the perfect car at a low price requires careful research, negotiation skills, and strategic planning. Here are some tips to help you find a great deal on a car:
+
+                      1.Research and set a budget
+                      2.Pre-approved financing
+                      3.Research the market value
+                      4.Consider used cars 
+                      5.Compare prices from different sellers
+                </p>
+                <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+             <!--Box 2-->
+             <div class="box">
+                <img src="/img/car8.jpg" alt="">
+                <span>August 21 2023</span>
+                <h3>Witch car is the best for beginners?</h3>
+                <p>When choosing a car for beginners, consider factors such as safety features, ease of handling, fuel efficiency, and overall cost of ownership. Additionally,
+                   it's essential to test drive different models to find the one that best suits your preferences and driving style. However the first 
+                   suggestion is "Toyota Corolla".
+                </p>
+                <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+             <!--Box 3-->
+             <div class="box">
+                <img src="/img/car3.jpg" alt="">
+                <span>January 15 2024</span>
+                <h3>Who is the best driver in the world?</h3>
+                <p>Lewis Hamilton is widely regarded as one of the best Formula 1 drivers of his generation. Hamilton has achieved numerous records, including multiple World Championships and Grand Prix victories. However, opinions on the best driver can differ, and names like Ayrton Senna,
+                    Michael Schumacher, Juan Manuel Fangio, and others are often part of the conversation.</p>
+                <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Car<span>Sales</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#">Home</a>
+                <a href="#">Cars</a>
+                <a href="#">Parts</a>
+                <a href="#">Sales</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Location</h3>
+               <p>London</p>
+               <p>Paris</p>
+               <p>Tokyo</p>
+               <p>Skopje</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Zana Hajdari All Right Reserved</p>
+    </div>
+
+    <!--Link To JS-->
+    <script src="main.js"></script>
+    
+</body>
+</html>
